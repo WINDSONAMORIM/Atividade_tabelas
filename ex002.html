@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        a{
+            text-decoration: none;
+        }
+
+        li{
+            list-style-type: none;
+            display: inline;
+            margin-right: 10px;
+        }
+
+        main{
+            width: 100%;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        table{
+            width: 100vh;
+            height: 70vh;
+        }
+
+        table, th, td{
+            border: 1px solid black;
+            margin: 0 auto;            
+        }
+
+        th, td{
+            padding: 5px;
+            text-align: center;
+        }
+
+        #topo{
+           height: 15vh;         
+        }
+
+        #main{
+           height: 50vh;
+        }
+
+        #m{
+            width: 25%;
+        }
+
+        #c{
+            width: 75%;
+        }
+
+        #footer{
+           height: 10vh;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html"><li>Ínicio</li></a>
+                <a href="ex001.html"><li>Exercício 01</li></a>
+                <a href="ex002.html"><li>Exercício 02</li></a>
+                <a href="ex003.html"><li>Exercício 03</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <h1 class="center">Exercício 02</h1>
+    <table>
+        <tr id="topo">
+            <td colspan="2">TOPO</td>
+        </tr>
+        <tr id="main">
+            <td id="m">MENU</td>
+            <td id="c">CONTEÚDO</td>
+        </tr>
+        <tr id="footer">
+            <td colspan="2">RODAPÉ</td>
+        </tr>
+    </table>
+    </main>
+</body>
+</html>
